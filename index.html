@@ -143,7 +143,7 @@
   <!-- plants lover section end -->
 
   <!-- latest deal section start -->
-  <section class="px-2 lg:px-0 lg:pb-32">
+  <section class="px-2 lg:px-0 pb-20 lg:pb-32">
     <div class="max-w-[1170px] mx-auto">
       <div class="text-center mb-[50px]">
         <h1 class="text-2xl font-noto font-bold mb-2 md:text-[65px]"><span class="text-[#E95A08]">Latest</span> Deals
@@ -154,7 +154,7 @@
       <div class="px-5 grid grid-cols-1 md:grid-cols-3 gap-4">
         <div class="flex flex-col gap-5">
           <div class="relative bg-[url(./assets/deal-bloom.png)] bg-no-repeat bg-cover h-60 rounded-[10px] md:h-48">
-            <div class="absolute w-full h-full bg-black opacity-50 rounded-[10px]"></div>
+            <div class="absolute inset-0 w-full h-full bg-black opacity-50 rounded-[10px]"></div>
             <div class="relative z-10 flex flex-col justify-center items-center h-full">
               <h3 class="text-white text-xl font-noto font-bold mb-5">60% Off | Bloom Plant</h3>
               <button class="text-white font-bold underline cursor-pointer">Shop Now</button>
@@ -162,15 +162,16 @@
           </div>
           <div class="relative bg-no-repeat bg-cover h-60 rounded-[10px] bg-[url(./assets/deal-ana.png)] md:h-48"
             class="bg-[url(./assets/deal-ana.png)] h-full">
-            <div class="absolute w-full h-full bg-black opacity-50 rounded-[10px]"></div>
+            <div class="absolute inset-0 w-full h-full bg-black opacity-50 rounded-[10px]"></div>
             <div class="relative z-10 flex flex-col justify-center items-center h-full">
               <h3 class="text-white text-xl font-noto font-bold mb-5">30% Off | Ana Plant</h3>
               <button class="text-white font-bold underline cursor-pointer">Shop Now</button>
             </div>
           </div>
         </div>
-        <div class="relative bg-[url(./assets/deal-zabo.png)] bg-no-repeat bg-cover h-60 rounded-[10px] md:col-span-2 md:h-full">
-          <div class="absolute w-full h-full bg-black opacity-50 rounded-[10px]"></div>
+        <div
+          class="relative bg-[url(./assets/deal-zabo.png)] bg-no-repeat bg-cover h-60 rounded-[10px] md:col-span-2 md:h-full">
+          <div class="absolute inset-0 w-full h-full bg-black opacity-50 rounded-[10px]"></div>
           <div class="relative z-10 flex flex-col justify-center items-center h-full">
             <h3 class="text-white text-xl font-noto font-bold mb-5 md:text-[40px]">25% Off | Zabo Plant</h3>
             <button class="text-white font-bold underline cursor-pointer md:text-2xl">Shop Now</button>
@@ -180,6 +181,19 @@
     </div>
   </section>
   <!-- latest deal section end -->
+
+  <section class="relative bg-[url(./assets/news-letter-bg.png)] w-full h-[530px] bg-no-repeat bg-cover px-2 lg:px-0">
+    <div class="absolute inset-0 h-full w-full bg-black opacity-20"></div>
+    <div class="max-w-[830px] h-full mx-auto">
+      <div class="flex flex-col justify-center items-center h-full relative z-10">
+        <h2 class="font-bold text-[20px] text-white sm:text-3xl md:text-[50px]">Join the colorful Bunch</h2>
+        <form class="mt-5 flex flex-row w-full">
+          <input class="bg-white py-3 px-5 w-full" type="email" placeholder="Write email">
+          <button class="bg-[#E95A08] py-3 px-7 text-white font-bold">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </section>
 
 
 
